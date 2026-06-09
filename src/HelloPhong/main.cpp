@@ -188,7 +188,7 @@ int main() {
 
   Mesh m;
 
-  m.VAO = loadSimpleOBJ("../assets/Modelos3D/SuzanneSubdiv1.obj", m.nVertices);
+  m.VAO = loadSimpleOBJ("assets/Modelos3D/SuzanneSubdiv1.obj", m.nVertices);
 
   // Mandando as infos de iluminação para o shader
   float ka = 0.2, kd = 0.5, ks = 0.5, q = 10.0;
