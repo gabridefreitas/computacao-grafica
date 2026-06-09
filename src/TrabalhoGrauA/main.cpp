@@ -1,6 +1,6 @@
 #define GLFW_INCLUDE_NONE
-#include <glad/glad.h>
 #include <GLFW/glfw3.h>
+#include <glad/glad.h>
 
 #include <camera.hpp>
 #include <cmath>
@@ -107,17 +107,16 @@ int main() {
 
   // stbi_set_flip_vertically_on_load(true);
 
-    const std::string vertexShader = resolveShaderPath("vertex.glsl");
-    const std::string fragmentShader = resolveShaderPath("fragment.glsl");
-    const std::string geometryShader = resolveShaderPath("geometry.glsl");
-    const std::string lightVertexShader =
-      resolveShaderPath("lightVertex.glsl");
-    const std::string lightFragmentShader =
+  const std::string vertexShader = resolveShaderPath("vertex.glsl");
+  const std::string fragmentShader = resolveShaderPath("fragment.glsl");
+  const std::string geometryShader = resolveShaderPath("geometry.glsl");
+  const std::string lightVertexShader = resolveShaderPath("lightVertex.glsl");
+  const std::string lightFragmentShader =
       resolveShaderPath("lightFragment.glsl");
 
-    Shader shader(vertexShader.c_str(), fragmentShader.c_str(),
-          geometryShader.c_str());
-    Shader lightShader(lightVertexShader.c_str(), lightFragmentShader.c_str());
+  Shader shader(vertexShader.c_str(), fragmentShader.c_str(),
+                geometryShader.c_str());
+  Shader lightShader(lightVertexShader.c_str(), lightFragmentShader.c_str());
   shaderGlobal = &shader;
   shader.use();
 
