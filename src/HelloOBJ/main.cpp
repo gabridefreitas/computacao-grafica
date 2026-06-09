@@ -157,7 +157,7 @@ int main() {
 
   Mesh m;
 
-  m.VAO = loadSimpleOBJ("../assets/Modelos3D/SuzanneSubdiv1.obj", m.nVertices);
+  m.VAO = loadSimpleOBJ("assets/Modelos3D/SuzanneSubdiv1.obj", m.nVertices);
 
   // Loop da aplicação - "game loop"
   while (!glfwWindowShouldClose(window)) {
