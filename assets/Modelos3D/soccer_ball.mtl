@@ -1,0 +1,12 @@
+# Blender 3.1.0 MTL File: 'soccer_ball.blend'
+# www.blender.org
+
+newmtl white
+Ns 0.2
+Ka 0.2125 0.1275 0.054
+Kd 0.714 0.4284 0.18144
+Ks 0.393548 0.271906 0.166721
+Ke 0.000000 0.000000 0.000000
+Ni 1.450000
+d 1.000000
+illum 2

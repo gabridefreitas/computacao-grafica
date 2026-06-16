@@ -1,0 +1,181 @@
+{
+	"models" : [
+		{
+			"path" : "./assets/Modelos3D/soccer_ball.obj",
+			"curves" : [[-3.0, 0.5, -2.0], [-1.0, 1.5, -3.0], [1.0, 1.0, -4.0], [3.0, 0.5, -3.0]],
+			"rotate" : [0.0, 0.0, 0.0],
+			"translate" : [-3.0, 0.5, -2.0],
+			"scale" : [0.5, 0.5, 0.5]
+		},
+		{
+			"path" : "./assets/Modelos3D/Suzanne.obj",
+			"curves" : [[-2.0, 1.0, 0.0], [0.0, 2.0, -1.0], [2.0, 1.0, 0.0], [0.0, 1.5, 2.0]],
+			"rotate" : [0.0, 180.0, 0.0],
+			"translate" : [-2.0, 1.0, 0.0],
+			"scale" : [0.8, 0.8, 0.8]
+		},
+		{
+			"path" : "./assets/Modelos3D/Cube.obj",
+			"curves" : [[-4.0, 0.0, -5.0], [-2.0, 1.0, -5.0], [2.0, 1.0, -5.0], [4.0, 0.0, -5.0]],
+			"rotate" : [30.0, 45.0, 0.0],
+			"translate" : [-4.0, 0.0, -5.0],
+			"scale" : [0.6, 0.6, 0.6]
+		},
+		{
+			"path" : "./assets/Modelos3D/soccer_ball.obj",
+			"curves" : [[-3.0, 0.0, 2.0], [-2.0, 1.0, 1.0], [-1.0, 1.5, 2.0], [0.0, 0.5, 3.0]],
+			"rotate" : [0.0, 90.0, 0.0],
+			"translate" : [-3.0, 0.0, 2.0],
+			"scale" : [0.4, 0.4, 0.4]
+		},
+		{
+			"path" : "./assets/Modelos3D/Suzanne.obj",
+			"curves" : [[0.0, 1.0, -3.0], [2.0, 2.0, -2.0], [3.0, 1.0, 0.0], [1.0, 1.5, 1.0]],
+			"rotate" : [0.0, 0.0, 0.0],
+			"translate" : [0.0, 1.0, -3.0],
+			"scale" : [0.7, 0.7, 0.7]
+		},
+		{
+			"path" : "./assets/Modelos3D/Cube.obj",
+			"curves" : [],
+			"rotate" : [0.0, 0.0, 0.0],
+			"translate" : [-2.0, -0.5, -4.0],
+			"scale" : [2.0, 0.2, 2.0]
+		},
+		{
+			"path" : "./assets/Modelos3D/soccer_ball.obj",
+			"curves" : [[3.0, 0.5, -1.0], [2.0, 1.5, 0.0], [4.0, 1.0, 1.0], [5.0, 0.5, 2.0]],
+			"rotate" : [0.0, 60.0, 0.0],
+			"translate" : [3.0, 0.5, -1.0],
+			"scale" : [0.45, 0.45, 0.45]
+		},
+		{
+			"path" : "./assets/Modelos3D/Suzanne.obj",
+			"curves" : [[-1.0, 0.0, 3.0], [1.0, 0.0, 3.0], [1.0, 0.0, 5.0], [-1.0, 0.0, 5.0]],
+			"rotate" : [0.0, 90.0, 0.0],
+			"translate" : [-1.0, 0.0, 3.0],
+			"scale" : [0.6, 0.6, 0.6]
+		},
+		{
+			"path" : "./assets/Modelos3D/Cube.obj",
+			"curves": [],
+			"rotate": [0.0, 0.0, 0.0],
+			"translate": [4.0, 0.5, -2.0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		{
+			"path": "./assets/Modelos3D/soccer_ball.obj",
+			"curves": [[-4.0, 1.0, 1.0], [-2.0, 2.0, 2.0], [0.0, 1.0, 3.0], [2.0, 1.5, 1.0]],
+			"rotate": [0.0, 0.0, 0.0],
+			"translate": [-4.0, 1.0, 1.0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		{
+			"path": "./assets/Modelos3D/Suzanne.obj",
+			"curves": [],
+			"rotate": [0.0, 45.0, 30.0],
+			"translate": [0.0, 2.0, -2.0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		{
+			"path": "./assets/Modelos3D/Cube.obj",
+			"curves": [[3.0, 0.0, 2.0], [4.0, 1.0, 3.0], [5.0, 0.5, 2.0], [4.0, 0.0, 1.0]],
+			"rotate": [45.0, 45.0, 45.0],
+			"translate": [3.0, 0.0, 2.0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		{
+			"path": "./assets/Modelos3D/soccer_ball.obj",
+			"curves": [],
+			"rotate": [0.0, 0.0, 0.0],
+			"translate": [-2.0, 0.5, -1.0],
+			"scale": [0.35, 0.35, 0.35]
+		},
+		{
+			"path": "./assets/Modelos3D/Suzanne.obj",
+			"curves": [[5.0, 1.0, -1.0], [4.0, 1.5, -2.0], [3.0, 1.0, -3.0], [5.0, 1.0, -5.0]],
+			"rotate": [0.0, -90.0, 0.0],
+			"translate": [5.0, 1.0, -1.0],
+			"scale": [0.55, 0.55, 0.55]
+		},
+		{
+			"path": "./assets/Modelos3D/Cube.obj",
+			"curves": [[-3.0, 1.5, -4.0], [0.0, 2.5, -5.0], [3.0, 1.5, -4.0], [0.0, 2.0, -3.0]],
+			"rotate": [0.0, 0.0, 0.0],
+			"translate": [-3.0, 1.5, -4.0],
+			"scale": [0.7, 0.7, 0.7]
+		}
+	],
+	"camera" : {
+		"position" : [0.0, 3.0, 8.0],
+		"front" : [0.0, 0.0, -1.0],
+		"up" : [0.0, 1.0, 0.0],
+		"yaw" : -90.0,
+		"pitch" : 0.0,
+		"frustrum" : {
+			"near" : 0.1,
+			"far" : 100.0,
+			"fov" : 60.0
+		}
+	},
+	"lights" : {
+		"dirLight" : {
+			"direction" : [-0.2, -1.0, -0.3],
+			"position" : [5.0, 10.0, 5.0],
+			"ambient" : [0.15, 0.15, 0.15],
+			"diffuse" : [0.7, 0.7, 0.7],
+			"specular" : [0.4, 0.4, 0.4]
+		},
+		"pointLights" : [
+			{
+				"position" : [0.0, 2.0, 0.0],
+				"ambient" : [0.1, 0.1, 0.1],
+				"diffuse" : [1.0, 0.8, 0.6],
+				"specular" : [0.8, 0.8, 0.8],
+				"distance" : {
+					"constant" : 1.0,
+					"linear" : 0.5,
+					"quadratic" : 1.2
+				}
+			},
+			{
+				"position" : [-2.0, 1.5, -3.0],
+				"ambient" : [0.08, 0.08, 0.08],
+				"diffuse" : [0.4, 0.6, 1.0],
+				"specular" : [0.7, 0.7, 0.7],
+				"distance" : {
+					"constant" : 1.0,
+					"linear" : 0.6,
+					"quadratic" : 1.5
+				}
+			},
+			{
+				"position" : [3.0, 1.0, -1.0],
+				"ambient" : [0.05, 0.05, 0.05],
+				"diffuse" : [0.8, 0.3, 0.3],
+				"specular" : [0.6, 0.6, 0.6],
+				"distance" : {
+					"constant" : 1.0,
+					"linear" : 0.7,
+					"quadratic" : 1.8
+				}
+			}
+		],
+		"spotLights" : [
+			{
+				"direction" : [0.0, -1.0, 0.0],
+				"position" : [0.0, 5.0, 0.0],
+				"ambient" : [0.1, 0.1, 0.1],
+				"diffuse" : [1.0, 1.0, 0.8],
+				"specular" : [1.0, 1.0, 1.0],
+				"cutOff" : 12.0,
+				"outerCutOff" : 15.0,
+				"distance" : {
+					"constant" : 1.0,
+					"linear" : 0.4,
+					"quadratic" : 0.9
+				}
+			}
+		]
+	}
+}

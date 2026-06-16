@@ -22,9 +22,6 @@ FetchContent_Declare(
   GIT_TAG master  # Define a versão desejada da GLM
 )
 
-# Faz o download e compila as bibliotecas
-FetchContent_MakeAvailable(glfw glm)
-
 # Configura o FetchContent para baixar a stb_image automaticamente
 FetchContent_Declare(
   stb_image
@@ -32,11 +29,11 @@ FetchContent_Declare(
   GIT_TAG master
 )
 
-# Configura o FetchContent para baixar o Assimp automaticamente, necessário para o TrabalhoGrauA
+# Configura o FetchContent para baixar o Assimp automaticamente
 FetchContent_Declare(
-    assimp
-    GIT_REPOSITORY https://github.com/assimp/assimp.git
-    GIT_TAG v5.4.3
+  assimp
+  GIT_REPOSITORY https://github.com/assimp/assimp.git
+  GIT_TAG master  
 )
 
 set(ASSIMP_BUILD_TESTS OFF CACHE BOOL "" FORCE)
@@ -46,7 +43,15 @@ set(ASSIMP_BUILD_ASSIMP_TOOLS OFF CACHE BOOL "" FORCE)
 set(ASSIMP_INSTALL OFF CACHE BOOL "" FORCE)
 set(ASSIMP_WARNINGS_AS_ERRORS OFF CACHE BOOL "" FORCE)
 
-FetchContent_MakeAvailable(stb_image assimp)
+# Configura o FetchContent para baixar o JSON automaticamente
+FetchContent_Declare(
+  json
+  GIT_REPOSITORY https://github.com/nlohmann/json.git
+  GIT_TAG master
+)
+
+# Faz o download e compila as bibliotecas
+FetchContent_MakeAvailable(glfw glm stb_image assimp json)
 
 # Adiciona as pastas de cabeçalhos
 include_directories(${CMAKE_SOURCE_DIR}/include)
@@ -54,7 +59,8 @@ include_directories(${CMAKE_SOURCE_DIR}/common)
 include_directories(${CMAKE_SOURCE_DIR}/include/glad)
 include_directories(${glm_SOURCE_DIR})
 include_directories(${stb_image_SOURCE_DIR})
-
+include_directories(${assimp_SOURCE_DIR})
+include_directories(${json_SOURCE_DIR}/include)
 
 # Lista de pastas dos projetos (devem corresponder aos nomes dos diretórios dentro de src/)
 set(EXERCISES
@@ -64,6 +70,7 @@ set(EXERCISES
     HelloPhong
     TrabalhoOBJ
     TrabalhoGrauA
+    TrabalhoGrauB
 )
 
 add_compile_options(-Wno-pragmas)
